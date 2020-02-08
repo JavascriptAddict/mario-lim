@@ -1,0 +1,18 @@
+{
+    "intro": {
+        "image": "https://lh3.googleusercontent.com/GAJmiGJkAFRrafN1vb6zbDO7pdkGQwrXdi0-y128JB0H3K-htqIIRAa-oHPgnFshouKcY-gR29eUePU8L4rcaMA7i1cstEoL8SrB5K9dlob6bMw0c78fGThb9drI2MFCSQS71RK63PI=w1187-h915-no",
+        "data": "Hi, I am Mario and I'm an Information Technology student at Temasek Polytechnic. My interest is in software development and I enjoy new development challenges."
+    },
+    "education": {
+        "image": "https://lh3.googleusercontent.com/-Am-JFMjn35zpvxf38Qos1rMiuJ1K5cVf8OFtf7uKd9WylzD02_IXZ6qAXoX4S7lUvmRCN--3G62e2mX9u_xT5mXbAYFv3_sufULoEIYyok8Dz4yVkA-hd5t6qN4Trt1dcEvUUfkDWg=w1221-h915-no",
+        "data": ["Diploma in Information Technology (2017 - 2020)", "Polytechnic Foundation Programme (2016 - 2017)"]
+    },
+    "achievements": {
+        "image": "https://www.tp.edu.sg/staticfiles/TP/images/Schools/iit/hackathon.jpg",
+        "data": ["TP Freshmen Scholarship 2017 Recipient", "Director's List 2018 Recipient", "Director's List 2019 Recipient", "PolyFintech 100 2017 Best Pitch Award"]
+    },
+    "projects": {
+        "image": "https://lh3.googleusercontent.com/Cpb-1ree6sM3k2H_CgmrFWROsTXVMgZIneV7Iwenu1W_2s00zsnj0pBS7tttdBAS7UrkOV81HeWQRRBdZUgd2KCRKfB-wo3KxT6J49T82RHZGepzp48FCrkuDNCANDhSMTVigueOJuU=w803-h488-no",
+        "data": ["Development of Aerial Surveillance System for Hitachi Asia Ltd"]
+    }
+}

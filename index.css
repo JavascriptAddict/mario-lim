@@ -1,0 +1,126 @@
+/* Designed by Mario Lim. Do not copy without permission from creator. */
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border-bottom: 1px solid rgb(238, 238, 238);;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 1;
+    opacity: 0.6;
+}
+.navbar ul{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    /* text-align: center; */
+}
+.navbar li{
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-right{
+    float: right;
+}
+.navbar-brand{
+    font-weight: bolder !important;
+}
+.split-left{
+    width: calc(50% - 11px);
+    height: calc(100% - 60px);
+    padding: 5px;
+    margin: 0;
+    margin-top: 50px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+.split-right{
+    width: calc(50% - 11px);
+    height: calc(100% - 60px);
+    padding: 5px;
+    margin: 0;
+    margin-top: 50px;
+    float: right;
+    position: relative;
+    text-align: center;
+
+}
+.split-left, .split-right li{
+    word-wrap:break-word
+}
+.split-left, .split-right{
+    padding: 5px;
+    overflow: hidden;
+}
+.split-img{
+    line-height: 100%;
+}
+.split-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.split-line{
+    width: 2px;
+    height: 70%;
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    float: left;
+    border-radius: 5px;
+}
+.contact-icon, .icon-link{
+    display: inline-block;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+.icon-link:hover{
+    background-color: lightgray;
+}
+@media only screen and (max-width: 700px) {
+    .split-line{
+        display: none;
+    }
+    .split-left, .split-right{
+        display: block;
+        width: 100%;
+    }
+    
+  }
