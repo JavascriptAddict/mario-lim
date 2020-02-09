@@ -19,7 +19,7 @@ html, body{
     padding: 0;
     margin: 0;
     position: relative;
-    border-bottom: 1px solid rgb(238, 238, 238);;
+    border-bottom: 1px solid rgb(238, 238, 238);
 }
 .navbar{
     width: 100%;
@@ -58,7 +58,6 @@ html, body{
 .split-left{
     width: calc(50% - 11px);
     height: calc(100% - 60px);
-    padding: 5px;
     margin: 0;
     margin-top: 50px;
     float: left;
@@ -68,7 +67,6 @@ html, body{
 .split-right{
     width: calc(50% - 11px);
     height: calc(100% - 60px);
-    padding: 5px;
     margin: 0;
     margin-top: 50px;
     float: right;
@@ -80,7 +78,6 @@ html, body{
     word-wrap:break-word
 }
 .split-left, .split-right{
-    padding: 5px;
     overflow: hidden;
 }
 .split-img{
@@ -121,6 +118,13 @@ html, body{
     .split-left, .split-right{
         display: block;
         width: 100%;
+        height: calc(50% - 60px);
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(238, 238, 238);
+    }
+    .banner{
+        border: none;
+        height: 200%;
     }
     
   }
