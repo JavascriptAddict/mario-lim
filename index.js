@@ -10,7 +10,7 @@ var init = {
     projectsDesc: document.getElementById("projectsDesc"),
 
     fetchData: function(){
-        fetch('/data.json')
+        fetch('/mario-lim/data.json')
             .then((response) => {
                 return response.json();
             })
